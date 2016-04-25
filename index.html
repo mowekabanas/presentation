@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="pt-br">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Apresentação Base</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<script src="dist/js/villa.min.js"></script>
+		<link rel="stylesheet" href="dist/css/villa.min.css"/>
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/night.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+
+		<style>
+
+			.one p {
+
+				display: flex;
+				justify-content: flex-end;
+
+			}
+
+			.one img {
+
+				background: none;
+				border: none;
+				box-shadow: none;
+
+			}
+
+			.one h3 {
+
+				font-size: .6875em;
+				padding-left: 18em;
+
+			}
+			
+			.three strong {
+
+				color: #ef6c00;
+				
+			}
+
+			.four strong {
+
+				color: #ef6c00;
+
+			}
+
+			.five strong {
+
+				color: #ef6c00;
+
+			}
+
+			.eight strong {
+
+				color: #ef6c00;
+
+			}
+
+			.nine strong {
+
+				color: #ef6c00;
+
+			}
+			
+			
+
+
+
+
+		</style>
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+
+				<section class="one"  data-background-color="#eceff1">
+					<h1><img src="dist/img/mowe2.png"></h1>
+					<h3>SOLUÇÕES WEB</h3>
+				</section>
+
+				<section data-transition="zoom">
+					<p class="two">Quando você precisa de algum produto ou serviço você costuma a buscar onde?</p>
+				</section>
+
+				<section class="three" data-transition="slide">
+					<p>Se a sua resposta for <strong>internet</strong>, você com certeza está fazendo como a maioria dos brasileiros.</p>
+					<p class="fragment">Não importa qual seu ramo de atividade, rentabilidade ou alcance. Se alguém precisa do seu telefone ou referência, ele vai buscar na internet.</p>
+				</section>
+
+				<section class="four" data-transition="convex">
+					<h2>Como anda a cara da sua empresa na <strong>WEB</strong>?</h2>
+				</section>
+
+				<section class="five" data-transition="fade-out">
+					<p>A <strong>Kabana's Info & Mowe</strong> não oferece apenas serviços para Web, ela oferece também soluções Web</p>
+				</section>
+
+				<section class="six" data-transition="slide">
+					<p>Já pensou se ao subir uma foto no Instagram da sua empresa ela automaticamente aparecesse na galeria de imagens do seu site sem nenhum trabalho a mais?</p>
+					<p class="fragment"><strong>NÓS SIM!</strong></p>
+					<p class="fragment">A <a href="http://www.lalolla.com.br" target="_blank">Lalolla</a> precisava de uma forma rápida de integrar seu site com o seu instagram e nós resolvemos seu problema </p>
+					<p class="fragment">Agora eles postam uma foto no <a href="http://instagram.com/lalollaassis" target="_blank">instagram oficial da loja</a> e automaticamente ela vai para a galeria do seu website</p>
+				</section>
+
+				<section class="seven" data-transition="concave">
+					<p>Com soluções que vão desde cartões de visita web até websites totalmente personalizados com API's exclusivas, a Kabana's Info & Mowe conta com um time onde o técnico é você</p>
+				</section>
+
+				<section class="eight" data-transition="convex">
+					<p>Não só colocamos a sua empresa na web, cuidamos de todas a soluções para que sua empresa seja bem <strong>conceituada</strong> na web!</p>
+				</section>
+
+				<section class="nine" data-transition="slide">
+					<h1><img src="dist/img/mowe3.png"></h1>
+					<p>Visite nosso <a href="http://www.kabanas.info" target="_blank">site</a>, confira nosso portifólio e entre em contato conosco pelo fone <strong>18 3351 4181</strong> ou pelo email <strong>mowe@kabanas.info</strong> </p>
+				</section>
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+				parallaxBackgroundImage: 'dist/img/bg5.png',
+
+
+
+
+				transition: 'fade', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
